@@ -1,13 +1,12 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url("back9.gif");
+    background-image: url("https://media.giphy.com/media/cbkVb8E9dXRmyOtjqw/giphy.gif");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative; /* Needed for absolute positioning */
     
 }
-
 
 @font-face {
     font-family: HeaderFont;
@@ -381,11 +380,12 @@ h1 {
     body {
         margin: 0;
         padding: 0;
-        background-image: url("backPhone.gif");
+        background-image: url("https://media.giphy.com/media/iszC1U5y1XfRCgNKYS/giphy.gif");
         background-repeat: no-repeat;
         background-size: cover;
         position: relative; /* Needed for absolute positioning */
     }
+    
 
     h1 {
         margin-top: 25px;
