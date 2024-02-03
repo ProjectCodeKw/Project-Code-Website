@@ -392,15 +392,18 @@ a{    left: 50%;
         letter-spacing: 10px;
         font-family: HeaderFont;
         color: #2d2a32;
+        width: 100%;
         text-transform: uppercase;
         text-align: center;
         -webkit-box-reflect: below 1px linear-gradient(transparent, #0002);
         line-height: 0.7em;
-        max-width: max-content;
         outline: none;
+        animation: animate 5s linear infinite;
+        animation-delay: 1s;
         padding-top: 5%;
         margin-bottom: 19px;
         cursor: default;
+    
       }
 
       h2 {
