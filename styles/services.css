@@ -1,5 +1,5 @@
 :root {
-    --primary: #a6ecd315;
+    --primary: #ccf5e60a;
     --blue: #243665;
     --grey: #1c2120;
   }
@@ -303,14 +303,11 @@ a{    left: 50%;
     width: 100%;
 }
 
-
-
-
+/*TEXT EFFECT*/
 #header {
-    margin-top: 25px;
     position: relative;
-    font-size: 22px;
-    letter-spacing: 10px;
+    font-size: 60px;
+    letter-spacing: 15px;
     font-family: HeaderFont;
     color: #2d2a32;
     width: 100%;
@@ -323,8 +320,7 @@ a{    left: 50%;
     animation-delay: 1s;
     padding-top: 5%;
     margin-bottom: 19px;
-    cursor: default;
-
+    cursor:default;
   }
 
   h2 {
