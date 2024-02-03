@@ -8,7 +8,543 @@ body {
     margin: 0;
     padding: 0;
     background-image: url("https://i.ibb.co/RzGGhCQ/services-back-Madewith-Clipchamp1-ezgif-com-video-to-gif-converter.gif");
+    background-repeat: no-repeat;:root {
+    --primary: #ffffff;
+    --blue: #243665;
+    --grey: #1c2120;
+    --pc-color: #b9fce418;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://i.ibb.co/RzGGhCQ/services-back-Madewith-Clipchamp1-ezgif-com-video-to-gif-converter.gif");
     background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; /* Needed for absolute positioning */
+    height: 100%;
+}
+
+@font-face {
+    font-family: HeaderFont;
+    src: url(ChakraPetch-BoldItalic.ttf);
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: auto auto; /* Two rows */
+    grid-template-columns: 1fr; /* One column */
+    gap: 0px 20px;  
+
+  }
+  
+.item {
+    border: 0px solid #000;
+    padding: 10px;
+    text-align:center;
+    padding-bottom: 3.5%;
+  }
+
+
+.item2 {
+    border: 0px solid #000;
+    text-align:center;
+    padding-right: 25%;
+    padding-left: 25%;
+    justify-content: center;
+    
+  }
+
+
+
+  /* BUTTONS STUFF */
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{    left: 50%;
+    transform: translateX(-50%);}
+
+#a1{
+    position: relative;
+    display: block;
+    padding: 15px 30px;
+ margin: 20px 0;
+    color: #c6f5e4;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    background-color: var(--pc-color);
+    overflow: hidden;
+    width: 400px;
+    font-weight: bold;
+    box-shadow: 5px  2px 2px #ffffff2f;
+}
+
+#a1:hover{
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+
+#a1 span{
+    position: absolute;
+    display: block;
+}
+#a1 span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#03e9f4);
+    animation: animate1 2.5s  linear infinite;
+}
+@keyframes animate1{
+    0%{
+        left: -100%;
+    }
+    50%,100%{
+        left: 100%;
+    }
+}
+
+#a2{
+    position: relative;
+    display: block;
+    padding: 15px 30px;
+    margin: 20px 0;
+    color: #c6f5e4;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    background-color: var(--pc-color);
+    overflow: hidden;
+   width: 400px;
+   box-shadow: 5px  2px 2px #ffffff2f;
+   font-weight: bold;
+}
+#a2:hover{
+    background: #f81e30;
+    color: #050801;
+    box-shadow: 0 0 5px #f81e30,
+                0 0 25px #f81e30,
+                0 0 50px #f81e30,
+                0 0 200px #f81e30;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+     
+}
+
+#a2 span{
+    position: absolute;
+    display: block;
+}
+#a2 span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#f81e30);
+    animation: animate1 2.9s  linear infinite;
+}
+
+
+#a3{
+    position: relative;
+    display: block;
+    padding: 15px 30px;
+ margin: 20px 0;
+    color: #c6f5e4;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background-color: var(--pc-color);
+   width: 400px;
+   box-shadow: 5px  2px 2px #ffffff2f;
+   font-weight: bold;
+}
+#a3:hover{
+    background: #fa28bb;
+    color: #050801;
+    box-shadow: 0 0 5px #fa28bb,
+                0 0 25px #fa28bb,
+                0 0 50px #fa28bb,
+                0 0 200px #fa28bb;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+
+#a3 span{
+    position: absolute;
+    display: block;
+}
+#a3 span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#fa28bb);
+    animation: animate1 3s  linear infinite;
+}
+
+
+#a4{
+    position: relative;
+    display: block;
+    padding: 15px 30px;
+    margin: 20px 0;
+    color: #c6f5e4;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background-color: var(--pc-color);
+   width: 400px;
+   box-shadow: 5px  2px 2px #ffffff2f;
+   font-weight: bold;
+}
+#a4:hover{
+    background: #28fa28;
+    color: #050801;
+    box-shadow: 0 0 5px #28fa28,
+                0 0 25px #28fa28,
+                0 0 50px #28fa28,
+                0 0 200px #28fa28;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+
+#a4 span{
+    position: absolute;
+    display: block;
+}
+#a4 span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#28fa28);
+    animation: animate1 2.8s  linear infinite;
+}
+
+#a5{
+    position: relative;
+    display: block;
+    padding: 25px 30px;
+    margin: 40px 0;
+    margin-top: 55px;
+    color: #c6f5e4;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background-color: var(--pc-color);
+    top: -55px;
+    box-shadow: 5px  2px 2px #ffffff2f;
+    font-weight: bold;
+}
+#a5:hover{
+    background: black;
+    color: #c6f5e4;
+    box-shadow: 0 0 5px #c6f5e4,
+                0 0 25px #c6f5e4,
+                0 0 50px #c6f5e4,
+                0 0 200px #c6f5e4;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+     
+}
+
+#a5 span{
+    position: absolute;
+    display: block;
+}
+#a5 span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#c6f5e4);
+    animation: animate1 3.2s  linear infinite;
+}
+.space{
+    height: 20px;
+    width: 100%;
+}
+
+#a6{
+    position: relative;
+    display: block;
+    padding: 15px 30px;
+    margin: 30px 0;
+    color:  #c6f5e4;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background-color: var(--pc-color);
+   width: 400px;
+   box-shadow: 5px  2px 2px #ffffff2f;
+   font-weight: bold;
+}
+#a6:hover{
+    background:  #e96e09;
+    color: #050801;
+    box-shadow: 0 0 5px #e96e09,
+                0 0 25px  #e96e09,
+                0 0 50px  #e96e09,
+                0 0 200px  #e96e09;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+
+#a6 span{
+    position: absolute;
+    display: block;
+}
+#a6 span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent, #e96e09);
+    animation: animate1 2.5s  linear infinite;
+}
+
+
+
+/*TEXT EFFECT*/
+#header {
+    position: relative;
+    font-size: 60px;
+    letter-spacing: 15px;
+    font-family: HeaderFont;
+    color: #2d2a32;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0002);
+    line-height: 0.7em;
+    outline: none;
+    animation: animate 5s linear infinite;
+    animation-delay: 1s;
+    padding-top: 5%;
+    margin-bottom: 19px;
+    cursor:default;
+  }
+
+  h2 {
+    position: relative;
+    font-size: 20px;
+    letter-spacing: 15px;
+    font-family: HeaderFont;
+    color: #2d2a32;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0002);
+    line-height: 0.7em;
+    outline: none;
+    animation: animate 5s linear infinite;
+    animation-delay: 1s;
+    cursor:default;
+  }
+
+  @keyframes animate {
+    0%,
+    18.1%,
+    20%,
+    55%,
+    60%,
+    90%,
+    92% {
+      color: #2d2a32;
+      text-shadow: none;
+    }
+    18%,
+    20.1%,
+    55.1%,
+    60.2%,
+    90.1%,
+    92.2%,
+    100% {
+      color: #c6f5e4;
+      text-shadow: 0 0 10px #adb5bd, 0 0 20px #adb5bd, 0 0 40px #212529,
+        0 0 60px #adb5bd, 0 0 80px #212529, 0 0 140px #adb5bd;
+    }
+  }
+
+
+  /*MOBILE USERS VIEW*/
+  @media only screen and (max-width: 600px) 
+  {
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("https://i.ibb.co/qxMQFfy/services-back-1-Made-with-Clipchamp.gif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative; /* Needed for absolute positioning */
+        height: 100vh;
+        width: 100%;
+    }
+
+    #header {
+        margin-top: 25px;
+        position: relative;
+        font-size: 22px;
+        letter-spacing: 10px;
+        font-family: HeaderFont;
+        color: #2d2a32;
+        width: 100%;
+        text-transform: uppercase;
+        text-align: center;
+        -webkit-box-reflect: below 1px linear-gradient(transparent, #0002);
+        line-height: 0.7em;
+        outline: none;
+        animation: animate 5s linear infinite;
+        animation-delay: 1s;
+        padding-top: 5%;
+        margin-bottom: 19px;
+        cursor: default;
+    
+      }
+
+      h2 {
+        position: relative;
+        font-size: 9px;
+        letter-spacing: 10px;
+        font-family: HeaderFont;
+        color: #2d2a32;
+        width: 100%;
+        text-transform: uppercase;
+        text-align: center;
+        -webkit-box-reflect: below 1px linear-gradient(transparent, #0002);
+        line-height: 0.7em;
+        outline: none;
+        animation: animate 5s linear infinite;
+        animation-delay: 1s;
+        cursor: default;
+    
+      }
+
+      
+    #a1{
+        position: relative;
+        display: block;
+        padding: 8px 10px;
+        margin: 40px 0;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: 0.5s;
+        letter-spacing: 4px;
+        overflow: hidden;
+        font-size: 12px;
+        background-color: var(--pc-color);
+       
+    }
+
+    #a2{
+        position: relative;
+        display: block;
+        padding: 8px 10px;
+        margin: 40px 0;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: 0.5s;
+        letter-spacing: 4px;
+        overflow: hidden;
+        font-size: 12px;
+        background-color: var(--pc-color);
+        
+    }
+
+    
+#a3{
+    position: relative;
+    display: block;
+    padding: 8px 10px;
+    margin: 40px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    font-size: 12px;
+    background-color: var(--pc-color);
+    
+}
+
+#a4{
+    position: relative;
+    display: block;
+    padding: 8px 10px;
+    margin: 40px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    font-size: 12px;
+    background-color: var(--pc-color);
+}
+
+    
+#a5{
+    position: relative;
+    display: block;
+    padding: 8px 10px;
+    margin: 40px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    font-size: 12px;
+    background-color: var(--pc-color);
+    top: 0px;
+}
+
+#a6{
+    position: relative;
+    display: block;
+    padding: 8px 10px;
+    margin: 40px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    font-size: 12px;
+    background-color: var(--pc-color);
+}
+
+.space{
+    height: 7px;
+    width: 100%;
+}
+
+  } 
+
     background-size: cover;
     position: relative; /* Needed for absolute positioning */
     height: 100%;
