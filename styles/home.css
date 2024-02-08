@@ -13,6 +13,7 @@ body {
     background-size: cover;
     position: relative; /* Needed for absolute positioning */
       height: 100vh;
+    background-color: black;
 }
 
 @font-face {
