@@ -11,7 +11,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative; /* Needed for absolute positioning */
-        height: 100vh;
+        height: 200vh;
 
     
 }
